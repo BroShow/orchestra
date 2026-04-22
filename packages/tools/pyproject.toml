@@ -9,6 +9,7 @@ dependencies = [
   "pydantic>=2.9",
   "ddgs",
   "trafilatura",
+  "pyyaml",
 ]
 
 [build-system]

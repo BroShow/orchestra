@@ -2590,6 +2590,7 @@ dependencies = [
     { name = "httpx" },
     { name = "mcp" },
     { name = "pydantic" },
+    { name = "pyyaml" },
     { name = "trafilatura" },
 ]
 
@@ -2599,6 +2600,7 @@ requires-dist = [
     { name = "httpx" },
     { name = "mcp" },
     { name = "pydantic", specifier = ">=2.9" },
+    { name = "pyyaml" },
     { name = "trafilatura" },
 ]
 

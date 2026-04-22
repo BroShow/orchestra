@@ -1,0 +1,10 @@
+servers:
+  - name: fs
+    transport: stdio
+    command: uv run python -m tools.fs_tools
+  - name: web
+    transport: stdio
+    command: uv run python -m tools.web_tools
+  - name: shell
+    transport: stdio
+    command: uv run python -m tools.shell_tools
