@@ -24,7 +24,7 @@ test:
 	uv run pytest -q
 
 test-integration:
-	uv run pytest -q -m integration
+	uv run pytest -q -m integration --override-ini="addopts="
 
 lint:
 	uv run ruff check .

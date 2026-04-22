@@ -36,6 +36,8 @@ ignore = ["E501"]
 
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
+testpaths = ["packages", "apps/api/tests"]
+addopts = "-m 'not integration'"
 markers = [
   "integration: tests that require a live Ollama or other external service",
 ]
