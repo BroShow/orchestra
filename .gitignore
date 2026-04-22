@@ -38,6 +38,10 @@ node_modules/
 workspace/
 pgdata/
 qdrant_data/
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
 
 # Logs
 *.log
