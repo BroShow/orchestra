@@ -1,0 +1,14 @@
+{
+  "name": "orchestra",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@10.0.0",
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "build:web": "pnpm --filter web build",
+    "lint:web": "pnpm --filter web lint"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
